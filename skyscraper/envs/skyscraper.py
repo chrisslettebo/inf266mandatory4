@@ -173,7 +173,7 @@ class SkyscraperEnv(gym.Env):
         while n > 0:
             if self.MAP[curr_i, curr_j] == 0:
                 # Uncomment the line below to print current coordinates and map value
-                print(curr_i, curr_j, self.MAP[curr_i, curr_j])
+                #print(curr_i, curr_j, self.MAP[curr_i, curr_j])
                 return True
 
             if epsilon > 0:
